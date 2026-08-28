@@ -28,9 +28,9 @@ AppSheet で画面を作り、計算処理を Google Apps Script（GAS）で書�
 |---|---|
 | `README.md` | このファイル |
 | `requirements.md` | **要件定義書**（経理課長が作成した仕様書） |
-| `allocation.js` | 按分計算 ── 共通費を部門に振り分ける処理 |
-| `tax.js` | 消費税計算 ── 消費税額を計算する処理 |
-| `report.js` | 集計出力 ── 集計表を出力する処理 |
+| `allocation.gs` | 按分計算 ── 共通費を部門に振り分ける処理 |
+| `tax.gs` | 消費税計算 ── 消費税額を計算する処理 |
+| `report.gs` | 集計出力 ── 集計表を出力する処理 |
 
 > `.js` という拡張子ですが、中身は Google Apps Script のコードです。
 > GASはJavaScriptで書かれているため、そのまま読むことができます。
